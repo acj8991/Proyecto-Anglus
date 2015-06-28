@@ -1,0 +1,45 @@
+
+#cajon{
+	text-align: center;
+}
+
+#canvas{
+
+	background-color: white;
+	border: 5px solid #1E7209;
+}
+
+#RecImage{
+
+	width:  90px;
+	height: 90px;
+	border:  8px solid ##2929CC;
+}
+
+#negativo, #positivo {
+	width: 100px;
+	opacity: 0;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+  	-o-transition: opacity 1s;
+  	transition: opacity 1s;
+}
+
+#head_title h1 {
+	display: inline-block;
+	margin: 0;
+}
+
+#positivo {
+	color: green;
+}
+
+#negativo {
+	color: red;
+}
+
+#nombreAnimal {
+	width: 400px;
+	text-transform: capitalize;
+}
